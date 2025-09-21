@@ -1,0 +1,10 @@
+[project]
+name = "genai-cookbook"
+version = "0.1.0"
+description = "Collection of tools for testing GenAI capabilities"
+dependencies = [
+  "openai~=1.108",
+  "tiktoken>=0.11",
+  "langchain>=0.3",
+  "anthropic>=0.68"
+]
